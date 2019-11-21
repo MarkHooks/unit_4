@@ -36,6 +36,9 @@ public class forLoops {
         }else return "";
         return count;
     }
+    public static Integer sumNumers(int num1, int num2){
+        return 1;
+    }
     public static void main(String[] args) {
         System.out.println(printingHasTags(7));
         System.out.println(countDown(0, 10));

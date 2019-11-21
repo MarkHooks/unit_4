@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/// Mark Hooks
+///11/19/2019
+/// this program is to create a game of rock paper scissors where the user enters either rock paper or scissors and the computer enters the same based on randomness
+/// then the program compares the users input vs the computers input and decides who wins
 public class RockPaperScissors {
     static Scanner scan = new Scanner(System.in);
     public static String getUserChoice(){
