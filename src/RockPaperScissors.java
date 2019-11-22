@@ -25,25 +25,43 @@ public class RockPaperScissors {
     public static String whoWins(String computerchoice, String userchoice){
         String whowins = "";
         if(computerchoice.equals("rock")&&userchoice.equals("paper")){
-            whowins = "User Wins!";
+            whowins = "You chose paper.\n" +
+                    "The computer chose rock.\n" +
+                    "You win!";
 
         }else if(computerchoice.equals("paper")&&userchoice.equals("paper")){
-            whowins = "Tie";
+            whowins = "You chose paper.\n" +
+                    "The computer chose paper.\n" +
+                    "You tied!";
         }else if(computerchoice.equals("scissors")&&userchoice.equals("paper")){
-            whowins = "Computer Wins";
+            whowins = "You chose paper.\n" +
+                    "The computer chose scissors.\n" +
+                    "The computer wins!";
 
         }else if(computerchoice.equals("rock")&&userchoice.equals("rock")){
-            whowins = "Tie";
+            whowins = "You chose rock.\n" +
+                    "The computer chose rock.\n" +
+                    "You tied!";
         }else if(computerchoice.equals("paper")&&userchoice.equals("rock")){
-            whowins="Computer Wins!";
+            whowins="You chose rock.\n" +
+                    "The computer chose paper.\n" +
+                    "The computer wins!";
         }else if(computerchoice.equals("scissors")&&userchoice.equals("rock")){
-            whowins="User Wins!";
+            whowins="You chose rock.\n" +
+                    "The computer chose scissors.\n" +
+                    "You win!";
         }else if(computerchoice.equals("paper")&&userchoice.equals("scissors")){
-            whowins = "User Wins!";
+            whowins = "You chose scissors.\n" +
+                    "The computer chose paper.\n" +
+                    "You win!";
         }else if(computerchoice.equals("rock")&&userchoice.equals("scissors")){
-            whowins="Computer Wins!";
+            whowins="You chose scissors.\n" +
+                    "The computer chose rock.\n" +
+                    "The computer wins!";
         }else if(computerchoice.equals("scissors")&&userchoice.equals("scissors")){
-            whowins="Tie";
+            whowins="You chose scissors.\n" +
+                    "The computer chose scissors.\n" +
+                    "You tied!";
         }
         return whowins;
     }
