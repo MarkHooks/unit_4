@@ -48,14 +48,13 @@ public class NestedLoops {
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        /*System.out.print(xSquare());
+        System.out.print(xSquare());
         System.out.println("Enter n: ");
         int n = scan.nextInt();
         System.out.println(xSquare2(n));
         System.out.println("Enter n: ");
         int x = scan.nextInt();
         System.out.println(flippedTriangle(x));
-    */
         System.out.println(multiplicationTable());
     }
 
